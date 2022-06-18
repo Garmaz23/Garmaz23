@@ -7,6 +7,7 @@
 - Email: garmaz.ivan@gmail.com
 - Feel free to ask me anything you want, I will be glad to answer you!
 
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Garmaz23&theme=blue-green)](https://git.io/streak-stats)
 <!---
 Garmaz23/Garmaz23 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
