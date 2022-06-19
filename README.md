@@ -12,7 +12,9 @@
   Hey there
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"/>
 </h1>
-  
+</div>
+<div align="center">
+  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
 </div>
 
 
@@ -21,8 +23,6 @@
 - 👀 I’m interested in decentralization in all its forms.
 - 🌱 I’m currently learning Solidity and Rust.
 - 💞️ I’m looking to collaborate on interesting blockchain projects.
-- Twitter: https://twitter.com/GarmazIvan
-- LinkedIn: https://www.linkedin.com/in/ivan-garmaz-26b2b3241/
 - Email: garmaz.ivan@gmail.com
 - Feel free to ask me anything you want, I will be glad to answer you!
 
