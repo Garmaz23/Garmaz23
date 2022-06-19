@@ -20,21 +20,16 @@
 
 ### :man_technologist: About Me :
 I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Croatia.
-- :telescope: I’m working as a freelancer and leading the <a href="https://www.instagram.com/tapdevelopment/">TAP project<a/><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="LinkedIn Badge"/>
+- :telescope: I’m working as a freelancer and leading the <a href="https://www.instagram.com/tapdevelopment/">TAP project<a/>
+  
+- :dart: My favorite stack is MERN.
 
 - :seedling: Exploring Solana blockchain.
 
 - :zap: In my free time, I play basketball and ride a mountain bike.
 
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ivan-garmaz-26b2b3241)
-
-
-- 👋 Hi, I’m @Garmaz23.
-- 👀 I’m interested in decentralization in all its forms.
-- 🌱 I’m currently learning Solidity and Rust.
-- 💞️ I’m looking to collaborate on interesting blockchain projects.
-- Email: garmaz.ivan@gmail.com
-- Feel free to ask me anything you want, I will be glad to answer you!
+- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-ivangarmaz-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ivan-garmaz-26b2b3241)
+  
 
 ---
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Garmaz23&theme=blue-green)](https://git.io/streak-stats)
