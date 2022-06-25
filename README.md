@@ -21,7 +21,7 @@
 --------
 
 ### :man_technologist: About Me :
-I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Croatia.
+I am a developer and blockchain enthusiast <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Croatia.
 - :telescope: I’m working as a freelancer and leading the <a href="https://www.instagram.com/tapdevelopment/">TAP project.<a/>
   
 - :dart: My favorite stack is MERN.
