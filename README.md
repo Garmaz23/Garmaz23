@@ -26,7 +26,7 @@ I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEm
   
 - :dart: My favorite stack is MERN.
 
-- :seedling: Exploring Solana blockchain.
+- :seedling: I am currently learning Solidity and Rust.
 
 - :zap: In my free time, I play basketball and ride a mountain bike.
 
