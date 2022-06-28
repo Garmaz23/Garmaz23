@@ -54,9 +54,6 @@ I am a developer and blockchain enthusiast <img src="https://media.giphy.com/med
 
 
 ---
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Garmaz23&theme=blue-green)](https://git.io/streak-stats)
-
----
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Garmaz23&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 <!---
 Garmaz23/Garmaz23 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
