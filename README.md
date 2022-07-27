@@ -26,7 +26,7 @@ I am a developer and blockchain enthusiast <img src="https://media.giphy.com/med
   
 - :dart: My favorite stack is MERN.
 
-- :seedling: I am currently learning Solidity and Rust.
+- :seedling: I am currently learning Solidity and .NET.
 
 - :zap: In my free time, I play basketball and ride a mountain bike.
 
