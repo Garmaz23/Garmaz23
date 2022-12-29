@@ -18,11 +18,11 @@
 
 ### :man_technologist: About Me :
 I am a developer and blockchain enthusiast <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Croatia.
-- :telescope: I’m working as a freelancer and leading the <a href="https://www.instagram.com/tapdevelopment/">TAP project.<a/>
+- :telescope: my passion is to make applications that change people's everyday life.
   
-- :dart: My favorite stack is MERN.
+- :dart: My favorite language is C#.
 
-- :seedling: I am currently learning Solidity and .NET.
+- :seedling: I am currently learning MERN stack.
 
 - :zap: In my free time, I play basketball and ride a mountain bike.
 
