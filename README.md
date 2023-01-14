@@ -18,7 +18,7 @@
 
 ### :man_technologist: About Me :
 I am a developer and blockchain enthusiast <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Croatia.
-- :telescope: my passion is to make applications that change people's everyday life.
+- :telescope: My passion is to make applications that change people's everyday life.
   
 - :dart: My favorite language is C#.
 
