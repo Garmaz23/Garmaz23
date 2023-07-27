@@ -34,6 +34,8 @@ I am a developer and blockchain enthusiast <img src="https://media.giphy.com/med
   <div>
    <img src="https://user-images.githubusercontent.com/42747200/46140125-da084900-c26d-11e8-8ea7-c45ae6306309.png" title="C++" alt="C++" width="40" height="40"/>&nbsp;
   <img src="https://iconape.com/wp-content/png_logo_vector/c.png" title="C#" alt="C#" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/dot-net/dot-net-original.svg" title="ASP.NET" alt="ASP.NET" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/dotnetcore/dotnetcore-original.svg" title=".NET Core" alt=".NET Core" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
@@ -44,7 +46,6 @@ I am a developer and blockchain enthusiast <img src="https://media.giphy.com/med
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
   
 </div>
-
 
 ---
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/top-langs?username=Garmaz23&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
