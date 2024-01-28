@@ -18,12 +18,15 @@
 
 ### :man_technologist: About Me :
 I am a developer and blockchain enthusiast <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Croatia.
+
 - :telescope: My passion is to make applications that change people's everyday life.
   
 - :dart: My favorite language is C#.
 
 - :seedling: I am currently learning MERN stack.
-
+  
+- 👨‍🏭 Engaged in advanced studies in Mechanical Engineering at the prestigious University of Zagreb.
+  
 - :zap: In my free time, I play basketball and ride a mountain bike.
 
 - :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-ivangarmaz-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ivan-garmaz-26b2b3241)
