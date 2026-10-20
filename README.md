@@ -18,7 +18,7 @@
 ### About me
 
 - 🎓 Master's student in **Mechanical Engineering** at FSB, University of Zagreb
-- 🛡️ Running **[Velaxis Engineering](https://velaxis.net)**, a one-person IT & cybersecurity practice: network infrastructure, Active Directory, SIEM monitoring, firewalls, backups and NIS2 readiness for healthcare and public-sector clients
+- 🛡️ Running **[Velaxis Engineering](https://velaxis.net)**, a one-person IT & cybersecurity company: network infrastructure, Active Directory, SIEM monitoring, firewalls, backups and NIS2 readiness for healthcare and public-sector clients
 - 🏭 Working on **OT security monitoring** in a university lab, where industrial systems meet IT security
 - 🏎️ Former Head of IT & Systems and General Secretary of **FSB Racing Team** (Formula Student)
 - 📜 Currently studying for **CompTIA Security+**, then **CCNA**
