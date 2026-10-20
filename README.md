@@ -24,21 +24,16 @@
 - 📜 Currently studying for **CompTIA Security+**, then **CCNA**
 - 🧪 I run a home lab (Proxmox, TrueNAS, WireGuard, local LLMs) where I test everything before it goes to clients
 
-### Recently worked on
-
-<!--START_SECTION:recent-->
-<!--END_SECTION:recent-->
-
 ### Recently exploited in the wild
 
 <!--START_SECTION:kev-->
-| CVE | Affected | Weakness | Added | Ransomware |
-|---|---|---|---|---|
-| [`CVE-2026-102764`](https://nvd.nist.gov/vuln/detail/CVE-2026-102764) | BeyondTrust Remote Support | Authentication Bypass by Spoofing | 2026-10-16 | — |
-| [`CVE-2025-61624`](https://nvd.nist.gov/vuln/detail/CVE-2025-61624) | Fortinet Multiple Products | Path Traversal | 2026-10-16 | — |
-| [`CVE-2026-21589`](https://nvd.nist.gov/vuln/detail/CVE-2026-21589) | Atlassian Multiple Products | Files or Directories Accessible to External Parties | 2026-10-15 | — |
+| CVE | Affected | Weakness | Added |
+|---|---|---|---|
+| [CVE-2026-102764](https://nvd.nist.gov/vuln/detail/CVE-2026-102764) | BeyondTrust Remote Support | Authentication Bypass by Spoofing | Oct&nbsp;16,&nbsp;2026 |
+| [CVE-2025-61624](https://nvd.nist.gov/vuln/detail/CVE-2025-61624) | Fortinet Multiple Products | Path Traversal | Oct&nbsp;16,&nbsp;2026 |
+| [CVE-2026-21589](https://nvd.nist.gov/vuln/detail/CVE-2026-21589) | Atlassian Multiple Products | Files or Directories Accessible to External Parties | Oct&nbsp;15,&nbsp;2026 |
 
-<sub>Newest of 1,748 entries in the [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), catalog updated 2026-10-16. Refreshed daily by a GitHub Action.</sub>
+<sub>Newest of 1,748 entries in the [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), last updated by CISA on Oct&nbsp;16,&nbsp;2026. CISA adds entries a few times a week; this section is checked every day.</sub>
 <!--END_SECTION:kev-->
 
 ### Tools I work with

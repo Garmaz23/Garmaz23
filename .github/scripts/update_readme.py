@@ -1,10 +1,9 @@
-"""Refresh the auto-updated sections of the profile README.
+"""Refresh the auto-updated section of the profile README.
 
-Two sections, each between its own markers:
-  recent  - public repos with the most recent pushes
-  kev     - newest entries in CISA's Known Exploited Vulnerabilities catalog
+kev - newest entries in CISA's Known Exploited Vulnerabilities catalog,
+      written between <!--START_SECTION:kev--> and <!--END_SECTION:kev-->.
 
-Standard library only. If one source fails, the other is still updated.
+Standard library only.
 """
 
 import json
@@ -15,11 +14,8 @@ import urllib.request
 from datetime import datetime, timezone
 
 USER = os.environ.get("GH_USERNAME", "Garmaz23")
-TOKEN = os.environ.get("GITHUB_TOKEN")
 README = os.environ.get("README_PATH", "README.md")
-MAX_REPOS = int(os.environ.get("MAX_REPOS", "5"))
 MAX_KEV = int(os.environ.get("MAX_KEV", "3"))
-EXCLUDE = {r.strip().lower() for r in os.environ.get("EXCLUDE_REPOS", "").split(",") if r.strip()}
 
 KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
 KEV_PAGE = "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
@@ -33,56 +29,6 @@ def get_json(url, headers=None):
 
 def cell(s):
     return (s or "—").replace("|", "\\|").replace("\n", " ").strip()
-
-
-# ---------------------------------------------------------------- repos
-
-def time_ago(iso):
-    pushed = datetime.fromisoformat(iso.replace("Z", "+00:00"))
-    days = (datetime.now(timezone.utc) - pushed).days
-    if days <= 0:
-        return "today"
-    if days == 1:
-        return "yesterday"
-    if days < 30:
-        return f"{days} days ago"
-    months = days // 30
-    if months < 12:
-        return f"{months} month{'s' if months > 1 else ''} ago"
-    years = days // 365
-    return f"{years} year{'s' if years > 1 else ''} ago"
-
-
-def fetch_repos():
-    headers = {"Accept": "application/vnd.github+json"}
-    if TOKEN:
-        headers["Authorization"] = f"Bearer {TOKEN}"
-    return get_json(
-        f"https://api.github.com/users/{USER}/repos?type=owner&sort=pushed&direction=desc&per_page=50",
-        headers,
-    )
-
-
-def build_recent(repos):
-    picked = [
-        r for r in repos
-        if not r.get("fork")
-        and not r.get("archived")
-        and not r.get("private")
-        and r["name"].lower() != USER.lower()
-        and r["name"].lower() not in EXCLUDE
-    ][:MAX_REPOS]
-
-    if not picked:
-        return "_Nothing public right now._"
-
-    rows = ["| Repo | What it is | Language | Last push |", "|---|---|---|---|"]
-    for r in picked:
-        rows.append(
-            f"| [**{r['name']}**]({r['html_url']}) | {cell(r.get('description'))} "
-            f"| {r.get('language') or '—'} | {time_ago(r['pushed_at'])} |"
-        )
-    return "\n".join(rows)
 
 
 # ---------------------------------------------------------------- KEV
@@ -103,6 +49,14 @@ def weakness(name, vendor, product):
     return name or None
 
 
+def short_date(iso):
+    """'2026-10-16' or '2026-10-16T15:00:00Z' -> 'Oct 16, 2026' (no hyphens, so no ugly wrapping)."""
+    try:
+        return datetime.fromisoformat((iso or "")[:10]).strftime("%b %-d, %Y").replace(" ", "&nbsp;")
+    except ValueError:
+        return "—"
+
+
 def build_kev(catalog):
     vulns = sorted(
         catalog.get("vulnerabilities", []),
@@ -113,24 +67,26 @@ def build_kev(catalog):
     if not vulns:
         return "_No entries available right now._"
 
-    rows = ["| CVE | Affected | Weakness | Added | Ransomware |", "|---|---|---|---|---|"]
+    rows = ["| CVE | Affected | Weakness | Added |", "|---|---|---|---|"]
     for v in vulns:
         cve = v.get("cveID", "")
         vendor, product = (v.get("vendorProject") or "").strip(), (v.get("product") or "").strip()
         affected = cell(f"{vendor} {product}".strip())
-        ransomware = "⚠️ known" if str(v.get("knownRansomwareCampaignUse", "")).lower() == "known" else "—"
+        what = cell(weakness(v.get("vulnerabilityName"), vendor, product))
+        if str(v.get("knownRansomwareCampaignUse", "")).lower() == "known":
+            what += " <sub>⚠️ used by ransomware</sub>"
         rows.append(
-            f"| [`{cve}`](https://nvd.nist.gov/vuln/detail/{cve}) | {affected} "
-            f"| {cell(weakness(v.get('vulnerabilityName'), vendor, product))} | {v.get('dateAdded', '—')} | {ransomware} |"
+            f"| [{cve}](https://nvd.nist.gov/vuln/detail/{cve}) | {affected} "
+            f"| {what} | {short_date(v.get('dateAdded'))} |"
         )
 
     total = catalog.get("count") or len(catalog.get("vulnerabilities", []))
-    released = (catalog.get("dateReleased") or "")[:10]
+    released = short_date(catalog.get("dateReleased"))
     rows.append("")
     rows.append(
-        f"<sub>Newest of {total:,} entries in the [CISA KEV catalog]({KEV_PAGE})"
-        + (f", catalog updated {released}" if released else "")
-        + ". Refreshed daily by a GitHub Action.</sub>"
+        f"<sub>Newest of {total:,} entries in the [CISA KEV catalog]({KEV_PAGE}), "
+        f"last updated by CISA on {released}. CISA adds entries a few times a week; "
+        "this section is checked every day.</sub>"
     )
     return "\n".join(rows)
 
@@ -138,7 +94,6 @@ def build_kev(catalog):
 # ---------------------------------------------------------------- main
 
 SECTIONS = [
-    ("recent", fetch_repos, build_recent),
     ("kev", fetch_kev, build_kev),
 ]
 
@@ -160,7 +115,7 @@ def main():
     for name, fetch, build in SECTIONS:
         try:
             content = replace_section(content, name, build(fetch()))
-        except Exception as exc:  # keep the old section, carry on with the next
+        except Exception as exc:  # keep the old section
             failures += 1
             print(f"[{name}] failed, keeping previous content: {exc}", file=sys.stderr)
 

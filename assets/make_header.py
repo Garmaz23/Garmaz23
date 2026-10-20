@@ -32,7 +32,7 @@ THEMES = {
     "dark": {"bg": "#0d1117", "ink": "#d1d9e0", "thin": "#7d8590", "dim": "#58a6ff", "hatch": "#565f69"},
 }
 
-W, H = 1200, 420
+W, H = 1000, 420
 FONT = "ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', Menlo, Consolas, 'Liberation Mono', monospace"
 
 
@@ -55,12 +55,12 @@ def build(t):
       .th {{ fill: none; stroke: {t['thin']}; stroke-width: 0.9; }}
       .cl {{ fill: none; stroke: {t['thin']}; stroke-width: 0.9; stroke-dasharray: 18 4 3 4; }}
       .dm {{ fill: none; stroke: {t['dim']}; stroke-width: 0.9; }}
-      .dt {{ fill: {t['dim']}; font-size: 13px; }}
+      .dt {{ fill: {t['dim']}; font-size: 14px; }}
       .ah {{ fill: {t['dim']}; }}
       .lb {{ font-size: 9px; fill: {t['thin']}; letter-spacing: .5px; }}
       .vl {{ font-size: 13px; }}
       .nt {{ font-size: 12.5px; }}
-      .zn {{ font-size: 10px; fill: {t['thin']}; }}
+      .zn {{ font-size: 11px; fill: {t['thin']}; }}
 
       .draw {{ stroke-dasharray: 1; stroke-dashoffset: 0; animation: draw 1.6s ease-out both; }}
       .fade {{ animation: fade .9s ease-out both; }}
@@ -119,7 +119,7 @@ def build(t):
     add(f'<path d="{keyhole}" class="o draw" pathLength="1" style="animation-delay:1.3s"/>')
 
     # ---------- Part: section A-A ----------
-    sx0, sx1 = 470, 500
+    sx0, sx1 = 400, 430
     sec = []
     # solid regions hatched (hole spans y 163..250)
     for y0, y1 in ((92, 163), (250, 326)):
@@ -134,10 +134,10 @@ def build(t):
     cl = [
         '<line x1="250" y1="76" x2="250" y2="342" class="cl"/>',
         '<line x1="214" y1="185" x2="286" y2="185" class="cl"/>',
-        f'<line x1="485" y1="80" x2="485" y2="340" class="cl"/>',
-        f'<line x1="456" y1="185" x2="514" y2="185" class="cl"/>',
+        f'<line x1="415" y1="80" x2="415" y2="340" class="cl"/>',
+        f'<line x1="386" y1="185" x2="444" y2="185" class="cl"/>',
         # projection line front -> section
-        f'<line x1="356" y1="185" x2="450" y2="185" class="th" stroke-dasharray="2 4"/>',
+        f'<line x1="356" y1="185" x2="382" y2="185" class="th" stroke-dasharray="2 4"/>',
     ]
     add(f'<g class="fade" style="animation-delay:1.8s">{"".join(cl)}</g>')
 
@@ -149,7 +149,7 @@ def build(t):
         f'<path d="M250,352 h18" class="f"/><path d="M268,352 l-7,-3.5 v7 z" fill="{t["ink"]}"/>',
         f'<text x="276" y="70" class="vl" font-weight="700">A</text>',
         f'<text x="276" y="356" class="vl" font-weight="700">A</text>',
-        f'<text x="485" y="70" class="vl" font-weight="700" text-anchor="middle">A–A</text>',
+        f'<text x="415" y="70" class="vl" font-weight="700" text-anchor="middle">A–A</text>',
     ]
     add(f'<g class="fade" style="animation-delay:2s">{"".join(cut)}</g>')
 
@@ -172,10 +172,10 @@ def build(t):
           arrow(102, 92, 270), arrow(102, 326, 90),
           '<text x="0" y="0" class="dt" text-anchor="middle" transform="translate(96,209) rotate(-90)">234</text>']
     # keyhole diameter (leader)
-    d += ['<line x1="266" y1="170" x2="372" y2="122" class="dm"/>',
-          '<line x1="372" y1="122" x2="418" y2="122" class="dm"/>',
-          arrow(266, 170, 155.6),
-          '<text x="376" y="117" class="dt">Ø44</text>']
+    d += ['<line x1="266" y1="170" x2="356" y2="140" class="dm"/>',
+          '<line x1="356" y1="140" x2="392" y2="140" class="dm"/>',
+          arrow(266, 170, 161.6),
+          '<text x="358" y="135" class="dt">Ø44</text>']
     # slot width 28
     d += ['<line x1="236" y1="254" x2="236" y2="276" class="dm"/>',
           '<line x1="264" y1="254" x2="264" y2="276" class="dm"/>',
@@ -195,7 +195,7 @@ def build(t):
     add(f'<g class="fade" style="animation-delay:2.4s">{"".join(d)}</g>')
 
     # ---------- Surface finish + flatness frame ----------
-    gx, gy = 540, 230
+    gx, gy = 470, 230
     g = [
         # roughness check mark
         f'<path d="M{gx},{gy} l8,14 l18,-32 h38" class="f"/>',
@@ -212,14 +212,14 @@ def build(t):
     add(f'<g class="fade" style="animation-delay:2.7s">{"".join(g)}</g>')
 
     # ---------- Notes ----------
-    nx, ny = 770, 76
+    nx, ny = 600, 76
     n = [f'<text x="{nx}" y="{ny}" class="vl" font-weight="700">NOTES</text>']
     for i, line in enumerate(TEXT["notes"]):
         n.append(f'<text x="{nx}" y="{ny + 24 + i*20}" class="nt">{i+1}. {esc(line)}</text>')
     add(f'<g class="fade" style="animation-delay:2.9s">{"".join(n)}</g>')
 
     # ---------- Title block ----------
-    bx0, by0, bx1, by1 = 740, 218, fx1, fy1
+    bx0, by0, bx1, by1 = 590, 218, fx1, fy1
     tb = [f'<rect x="{bx0}" y="{by0}" width="{bx1-bx0}" height="{by1-by0}" class="o"/>']
     r1, r2, r3 = by0 + 34, by0 + 102, by0 + 136
 
@@ -229,14 +229,14 @@ def build(t):
                 f'<text x="{x+6}" y="{y+27}" class="vl" style="font-size:{size}px"{w}>{esc(value)}</text>')
 
     # row 1: drawn | status | scale | projection symbol
-    c1 = [bx0, bx0 + 110, bx0 + 230, bx0 + 300, bx1]
+    c1 = [bx0, bx0 + 95, bx0 + 200, bx0 + 262, bx1]
     tb += [f'<line x1="{bx0}" y1="{r1}" x2="{bx1}" y2="{r1}" class="f"/>']
     tb += [f'<line x1="{x}" y1="{by0}" x2="{x}" y2="{r1}" class="f"/>' for x in c1[1:-1]]
     tb += [cell(c1[0], by0, "DRAWN", TEXT["drawn"]),
            cell(c1[1], by0, "STATUS", TEXT["status"]),
            cell(c1[2], by0, "SCALE", TEXT["scale"])]
     # first-angle projection symbol (ISO E)
-    px, py = c1[3] + 40, by0 + 17
+    px, py = c1[3] + 58, by0 + 17
     tb += [f'<path d="M{px-30},{py-8} L{px-6},{py-12} V{py+12} L{px-30},{py+8} Z" class="f"/>',
            f'<circle cx="{px+18}" cy="{py}" r="12" class="f"/>',
            f'<circle cx="{px+18}" cy="{py}" r="7" class="f"/>',
@@ -249,14 +249,14 @@ def build(t):
            f'<text x="{bx0+12}" y="{r1+60}" style="font-size:12.5px;fill:{t["dim"]}">{esc(TEXT["subtitle"])}</text>']
 
     # row 3: firm | origin
-    c3 = [bx0, bx0 + 230, bx1]
+    c3 = [bx0, bx0 + 200, bx1]
     tb += [f'<line x1="{bx0}" y1="{r3}" x2="{bx1}" y2="{r3}" class="f"/>',
            f'<line x1="{c3[1]}" y1="{r2}" x2="{c3[1]}" y2="{r3}" class="f"/>',
            cell(c3[0], r2, "FIRM", TEXT["firm"]),
            cell(c3[1], r2, "ORIGIN", TEXT["origin"])]
 
     # row 4: material | dwg no | rev
-    c4 = [bx0, bx0 + 230, bx0 + 360, bx1]
+    c4 = [bx0, bx0 + 200, bx0 + 310, bx1]
     tb += [f'<line x1="{x}" y1="{r3}" x2="{x}" y2="{by1}" class="f"/>' for x in c4[1:-1]]
     tb += [cell(c4[0], r3, "MATERIAL", TEXT["material"], size=11.5),
            cell(c4[1], r3, "DWG NO.", TEXT["dwg_no"]),

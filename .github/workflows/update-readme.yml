@@ -18,12 +18,9 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Refresh "Recently worked on" and the KEV feed
+      - name: Refresh the KEV feed
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_USERNAME: Garmaz23
-          MAX_REPOS: "5"
-          EXCLUDE_REPOS: ""   # comma-separated repo names to hide, e.g. "old-test,playground"
+          MAX_KEV: "3"
         run: python .github/scripts/update_readme.py
 
       - name: Commit if changed
