@@ -1,60 +1,88 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-  <div id="badges" align="center">
-  <a href="https://www.linkedin.com/in/ivan-garmaz-26b2b3241">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="https://twitter.com/GarmazIvan">
-    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
-  </a>
-</div>
-  <img src="https://komarev.com/ghpvc/?username=Garmaz23&style=flat-square&color=blue" alt=""/>
-  <h1>
-  Hi, I am Ivan!
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="31"/>
-    </h1>
-    </div>
+<a href="https://velaxis.net">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"/>
+    <img src="assets/header-light.svg" width="100%" alt="Ivan Garmaz - Mechanical Engineer and IT & Security Consultant, drawn as an engineering drawing"/>
+  </picture>
+</a>
 
-
-### :man_technologist: About Me :
-I am a developer and blockchain enthusiast <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Croatia.
-
-- :telescope: My passion is to make applications that change people's everyday life.
-  
-- :dart: My favorite language is C#.
-
-- :seedling: I am currently learning MERN stack.
-  
-- 👨‍🏭 Engaged in advanced studies in Mechanical Engineering at the prestigious University of Zagreb.
-  
-- :zap: In my free time, I play basketball and ride a mountain bike.
-
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-ivangarmaz-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ivan-garmaz-26b2b3241)
+<p align="center">
+  <a href="https://velaxis.net"><img src="https://img.shields.io/badge/Velaxis_Engineering-velaxis.net-0A66C2?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"/></a>
+  <a href="https://www.linkedin.com/in/ivan-garmaz-26b2b3241"><img src="https://img.shields.io/badge/LinkedIn-ivangarmaz-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:ivan@velaxis.net"><img src="https://img.shields.io/badge/Email-ivan@velaxis.net-555?style=flat-square&logo=maildotru&logoColor=white" alt="Email"/></a>
+  <br/>
+  <img src="https://komarev.com/ghpvc/?username=Garmaz23&style=flat-square&color=0A66C2&label=Profile+views" alt="Profile views"/>
+</p>
 
 ---
 
-### :hammer_and_wrench: Languages and Tools :
-  <div>
-   <img src="https://user-images.githubusercontent.com/42747200/46140125-da084900-c26d-11e8-8ea7-c45ae6306309.png" title="C++" alt="C++" width="40" height="40"/>&nbsp;
-  <img src="https://iconape.com/wp-content/png_logo_vector/c.png" title="C#" alt="C#" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/dot-net/dot-net-original.svg" title="ASP.NET" alt="ASP.NET" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/dotnetcore/dotnetcore-original.svg" title=".NET Core" alt=".NET Core" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/blazor.svg" title="Blazor" alt="Blazor" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
-  
-</div>
+### About me
 
----
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/top-langs?username=Garmaz23&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+- 🎓 Master's student in **Mechanical Engineering** at FSB, University of Zagreb
+- 🛡️ Running **[Velaxis Engineering](https://velaxis.net)**, a one-person IT & cybersecurity practice: network infrastructure, Active Directory, SIEM monitoring, firewalls, backups and NIS2 readiness for healthcare and public-sector clients
+- 🏭 Working on **OT security monitoring** in a university lab, where industrial systems meet IT security
+- 🏎️ Former Head of IT & Systems and General Secretary of **FSB Racing Team** (Formula Student)
+- 📜 Currently studying for **CompTIA Security+**, then **CCNA**
+- 🧪 I run a home lab (Proxmox, TrueNAS, WireGuard, local LLMs) where I test everything before it goes to clients
 
+### Recently worked on
+
+<!--START_SECTION:recent-->
+<!--END_SECTION:recent-->
+
+### Recently exploited in the wild
+
+<!--START_SECTION:kev-->
+| CVE | Affected | Weakness | Added | Ransomware |
+|---|---|---|---|---|
+| [`CVE-2026-102764`](https://nvd.nist.gov/vuln/detail/CVE-2026-102764) | BeyondTrust Remote Support | Authentication Bypass by Spoofing | 2026-10-16 | — |
+| [`CVE-2025-61624`](https://nvd.nist.gov/vuln/detail/CVE-2025-61624) | Fortinet Multiple Products | Path Traversal | 2026-10-16 | — |
+| [`CVE-2026-21589`](https://nvd.nist.gov/vuln/detail/CVE-2026-21589) | Atlassian Multiple Products | Files or Directories Accessible to External Parties | 2026-10-15 | — |
+
+<sub>Newest of 1,748 entries in the [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), catalog updated 2026-10-16. Refreshed daily by a GitHub Action.</sub>
+<!--END_SECTION:kev-->
+
+### Tools I work with
+
+**Infrastructure & security**<br/>
+<img src="https://img.shields.io/badge/Wazuh-005571?style=flat-square&logo=wazuh&logoColor=white"/>
+<img src="https://img.shields.io/badge/MikroTik-293239?style=flat-square&logo=mikrotik&logoColor=white"/>
+<img src="https://img.shields.io/badge/OPNsense-D94F00?style=flat-square&logo=opnsense&logoColor=white"/>
+<img src="https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white"/>
+<img src="https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white"/>
+<img src="https://img.shields.io/badge/TrueNAS-0095D5?style=flat-square&logo=truenas&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=windows&logoColor=white"/>
+
+**Code & data**<br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+<img src="https://img.shields.io/badge/ASP.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+<img src="https://img.shields.io/badge/Blazor-512BD4?style=flat-square&logo=blazor&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+
+**Engineering**<br/>
+<img src="https://img.shields.io/badge/Ansys_Fluent-FFB71B?style=flat-square&logo=ansys&logoColor=black"/>
+<img src="https://img.shields.io/badge/Abaqus-005386?style=flat-square&logo=dassaultsystemes&logoColor=white"/>
+<img src="https://img.shields.io/badge/ANSA-1B3A5C?style=flat-square"/>
+<img src="https://img.shields.io/badge/META-1B3A5C?style=flat-square"/>
+<img src="https://img.shields.io/badge/SolidWorks-DA291C?style=flat-square&logo=dassaultsystemes&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenFOAM-2B5797?style=flat-square"/>
+
+### Outside of work
+
+Road trips, hiking, and doing my own repairs on my car.
 
 <!---
-Garmaz23/Garmaz23 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+Garmaz23/Garmaz23 is a special repository because its README.md appears on your GitHub profile.
 --->
