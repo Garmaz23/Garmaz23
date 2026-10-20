@@ -27,6 +27,13 @@
 ### Recently worked on
 
 <!--START_SECTION:recent-->
+| Repo | What it is | Language | Last push |
+|---|---|---|---|
+| [**FEA-ACCU-Layup-Opt**](https://github.com/Garmaz23/FEA-ACCU-Layup-Opt) | — | Python | 8 months ago |
+| [**Zdenac-API**](https://github.com/Garmaz23/Zdenac-API) | Refactor of real API designed with Node.JS. It's ready to use with autentification and autorization configured using ASP.NET Identity and JWT web token.  🤝 | C# | 2 years ago |
+| [**AnimalsAPI**](https://github.com/Garmaz23/AnimalsAPI) | If you need WEB API for you Zoo or animal shelter, this open source API is right tool for you. Enjoy! | C# | 4 years ago |
+| [**Airport**](https://github.com/Garmaz23/Airport) | This project contains multiple modules of Split's airport created with Blazor, C# and MySQL | C# | 4 years ago |
+| [**MERN-web-template**](https://github.com/Garmaz23/MERN-web-template) | This repo is website template developed by MERN stack. Enjoy! | JavaScript | 4 years ago |
 <!--END_SECTION:recent-->
 
 ### Recently exploited in the wild
