@@ -29,11 +29,11 @@
 <!--START_SECTION:kev-->
 | CVE | Affected | Weakness | Added |
 |---|---|---|---|
-| [CVE-2026-102764](https://nvd.nist.gov/vuln/detail/CVE-2026-102764) | BeyondTrust Remote Support | Authentication Bypass by Spoofing | Oct&nbsp;16,&nbsp;2026 |
-| [CVE-2025-61624](https://nvd.nist.gov/vuln/detail/CVE-2025-61624) | Fortinet Multiple Products | Path Traversal | Oct&nbsp;16,&nbsp;2026 |
-| [CVE-2026-21589](https://nvd.nist.gov/vuln/detail/CVE-2026-21589) | Atlassian Multiple Products | Files or Directories Accessible to External Parties | Oct&nbsp;15,&nbsp;2026 |
+| [CVE-2026-96656](https://nvd.nist.gov/vuln/detail/CVE-2026-96656) | Plex Media Server | External Control of File Name or Path | Oct&nbsp;20,&nbsp;2026 |
+| [CVE-2026-96655](https://nvd.nist.gov/vuln/detail/CVE-2026-96655) | Plex Media Server | Server-Side Request Forgery (SSRF) | Oct&nbsp;20,&nbsp;2026 |
+| [CVE-2026-96654](https://nvd.nist.gov/vuln/detail/CVE-2026-96654) | Plex Media Server | Improper Neutralization of Encoded URI Schemes in a Web Page | Oct&nbsp;20,&nbsp;2026 |
 
-<sub>Newest of 1,748 entries in the [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), last updated by CISA on Oct&nbsp;16,&nbsp;2026. CISA adds entries a few times a week; this section is checked every day.</sub>
+<sub>Newest of 1,754 entries in the [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), last updated by CISA on Oct&nbsp;20,&nbsp;2026. CISA adds entries a few times a week; this section is checked every day.</sub>
 <!--END_SECTION:kev-->
 
 ### Tools I work with
