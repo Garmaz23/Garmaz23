@@ -29,11 +29,11 @@
 <!--START_SECTION:kev-->
 | CVE | Affected | Weakness | Added |
 |---|---|---|---|
+| [CVE-2026-46300](https://nvd.nist.gov/vuln/detail/CVE-2026-46300) | Linux Kernel | Missing Initialization of a Variable | Oct&nbsp;28,&nbsp;2026 |
+| [CVE-2026-41709](https://nvd.nist.gov/vuln/detail/CVE-2026-41709) | Broadcom VMware ESX | Insufficient Logging | Oct&nbsp;28,&nbsp;2026 |
 | [CVE-2026-48356](https://nvd.nist.gov/vuln/detail/CVE-2026-48356) | Adobe Commerce and Magento | Unrestricted Upload of File with Dangerous Type | Oct&nbsp;27,&nbsp;2026 |
-| [CVE-2026-111497](https://nvd.nist.gov/vuln/detail/CVE-2026-111497) | Google Brotli | Unchecked Return Value | Oct&nbsp;27,&nbsp;2026 |
-| [CVE-2026-109619](https://nvd.nist.gov/vuln/detail/CVE-2026-109619) | PHP Group PHP | Stale Internal Request-State | Oct&nbsp;26,&nbsp;2026 |
 
-<sub>Newest of 1,760 entries in the [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), last updated by CISA on Oct&nbsp;27,&nbsp;2026. CISA adds entries a few times a week; this section is checked every day.</sub>
+<sub>Newest of 1,762 entries in the [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), last updated by CISA on Oct&nbsp;28,&nbsp;2026. CISA adds entries a few times a week; this section is checked every day.</sub>
 <!--END_SECTION:kev-->
 
 ### Tools I work with
