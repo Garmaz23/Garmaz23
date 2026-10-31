@@ -29,11 +29,11 @@
 <!--START_SECTION:kev-->
 | CVE | Affected | Weakness | Added |
 |---|---|---|---|
+| [CVE-2026-118527](https://nvd.nist.gov/vuln/detail/CVE-2026-118527) | Ivanti Connect Secure | Generation of Predictable Numbers or Identifiers | Oct&nbsp;30,&nbsp;2026 |
+| [CVE-2026-111357](https://nvd.nist.gov/vuln/detail/CVE-2026-111357) | Ivanti Connect Secure | Missing Authentication for Critical Function | Oct&nbsp;30,&nbsp;2026 |
 | [CVE-2026-97229](https://nvd.nist.gov/vuln/detail/CVE-2026-97229) | GitLab Community Edition and Enterprise Edition | Integer Overflow or Wraparound | Oct&nbsp;29,&nbsp;2026 |
-| [CVE-2026-76418](https://nvd.nist.gov/vuln/detail/CVE-2026-76418) | Cisco Secure Firewall ASA Software and Cisco Secure FTD Software | Unchecked Return Value to NULL Pointer Dereference | Oct&nbsp;29,&nbsp;2026 |
-| [CVE-2026-46300](https://nvd.nist.gov/vuln/detail/CVE-2026-46300) | Linux Kernel | Missing Initialization of a Variable | Oct&nbsp;28,&nbsp;2026 |
 
-<sub>Newest of 1,764 entries in the [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), last updated by CISA on Oct&nbsp;29,&nbsp;2026. CISA adds entries a few times a week; this section is checked every day.</sub>
+<sub>Newest of 1,766 entries in the [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), last updated by CISA on Oct&nbsp;30,&nbsp;2026. CISA adds entries a few times a week; this section is checked every day.</sub>
 <!--END_SECTION:kev-->
 
 ### Tools I work with
