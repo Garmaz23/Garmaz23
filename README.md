@@ -29,11 +29,11 @@
 <!--START_SECTION:kev-->
 | CVE | Affected | Weakness | Added |
 |---|---|---|---|
-| [CVE-2026-123218](https://nvd.nist.gov/vuln/detail/CVE-2026-123218) | IBM Aspera Faspex | Incorrect Authorization | Nov&nbsp;9,&nbsp;2026 |
-| [CVE-2026-123158](https://nvd.nist.gov/vuln/detail/CVE-2026-123158) | OpenBSD OpenSSH | Unexpected Status Code or Return Value | Nov&nbsp;9,&nbsp;2026 |
-| [CVE-2026-116779](https://nvd.nist.gov/vuln/detail/CVE-2026-116779) | SignalWire FreeSwitch | Code Injection | Nov&nbsp;9,&nbsp;2026 |
+| [CVE-2026-20320](https://nvd.nist.gov/vuln/detail/CVE-2026-20320) | Cisco BroadWorks | Improper Restriction of XML External Entity Reference | Nov&nbsp;10,&nbsp;2026 |
+| [CVE-2026-125350](https://nvd.nist.gov/vuln/detail/CVE-2026-125350) | Google Chromium | Use-After-Free | Nov&nbsp;10,&nbsp;2026 |
+| [CVE-2026-124194](https://nvd.nist.gov/vuln/detail/CVE-2026-124194) | Microsoft Office | Outlook Missing User Interaction for Potentially Unsafe Action | Nov&nbsp;10,&nbsp;2026 |
 
-<sub>Newest of 1,773 entries in the [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), last updated by CISA on Nov&nbsp;9,&nbsp;2026. CISA adds entries a few times a week; this section is checked every day.</sub>
+<sub>Newest of 1,779 entries in the [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), last updated by CISA on Nov&nbsp;10,&nbsp;2026. CISA adds entries a few times a week; this section is checked every day.</sub>
 <!--END_SECTION:kev-->
 
 ### Tools I work with
