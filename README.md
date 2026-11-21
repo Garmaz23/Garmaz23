@@ -29,11 +29,11 @@
 <!--START_SECTION:kev-->
 | CVE | Affected | Weakness | Added |
 |---|---|---|---|
-| [CVE-2026-90817](https://nvd.nist.gov/vuln/detail/CVE-2026-90817) | Vanderbilt University Research Electronic Data Capture (REDCap) | Code Injection | Nov&nbsp;18,&nbsp;2026 |
-| [CVE-2026-90436](https://nvd.nist.gov/vuln/detail/CVE-2026-90436) | Apache Axis | Unsafe Reflection | Nov&nbsp;18,&nbsp;2026 |
-| [CVE-2026-40217](https://nvd.nist.gov/vuln/detail/CVE-2026-40217) | BerriAI LiteLLM | Unprotected Alternate Channel | Nov&nbsp;18,&nbsp;2026 |
+| [CVE-2026-76466](https://nvd.nist.gov/vuln/detail/CVE-2026-76466) | Cisco Expressway Series | Use of Hard-coded Credentials | Nov&nbsp;20,&nbsp;2026 |
+| [CVE-2026-129448](https://nvd.nist.gov/vuln/detail/CVE-2026-129448) | Apache Roller | Deserialization of Untrusted Data | Nov&nbsp;20,&nbsp;2026 |
+| [CVE-2026-123890](https://nvd.nist.gov/vuln/detail/CVE-2026-123890) | Broadcom VMware vCenter | Authentication Bypass Using an Alternate Path or Channel | Nov&nbsp;20,&nbsp;2026 |
 
-<sub>Newest of 1,786 entries in the [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), last updated by CISA on Nov&nbsp;18,&nbsp;2026. CISA adds entries a few times a week; this section is checked every day.</sub>
+<sub>Newest of 1,790 entries in the [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog), last updated by CISA on Nov&nbsp;20,&nbsp;2026. CISA adds entries a few times a week; this section is checked every day.</sub>
 <!--END_SECTION:kev-->
 
 ### Tools I work with
